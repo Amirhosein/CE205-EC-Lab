@@ -1,0 +1,5 @@
+* source 5
+V_V1         N00105 0  
++PULSE 2 -2 0 1n 1n 100u 200u
+L_L1         N00105 N00160  18mH  
+R_R1         0 N00160  1k  

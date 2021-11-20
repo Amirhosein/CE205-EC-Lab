@@ -1,0 +1,71 @@
+
+**** 10/18/21 11:27:00 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ E:\CODE\Electric Circuit Lab\Az 3\1\1-SCHEMATIC1-1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1-SCHEMATIC1-1.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of e:\orCad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\1-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING 1-SCHEMATIC1.net ****
+* source 1
+V_V1         N02058 0 15v
+R_R1         N02058 N02089  330  
+R_R2         0 N02089  1k  
+R_R3         N02089 0  330  
+
+**** RESUMING 1-SCHEMATIC1-1.sim.cir ****
+.END
+
+**** 10/18/21 11:27:00 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ E:\CODE\Electric Circuit Lab\Az 3\1\1-SCHEMATIC1-1.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N02058)   15.0000 (N02089)    6.4378 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.595E-02
+
+    TOTAL POWER DISSIPATION   3.89E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME            0.00
+

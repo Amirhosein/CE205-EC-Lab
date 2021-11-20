@@ -1,0 +1,74 @@
+
+**** 11/01/21 17:23:38 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-4"  [ E:\Code\Assignments\3rd Term\Electric Circuit Lab\Az 5\4\4-schematic1-4.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "4-schematic1-4.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of e:\orCad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 40m 0 40u 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\4-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING 4-SCHEMATIC1.net ****
+* source 4
+V_V1         N00149 0  
++PULSE 2 -2 0 1n 1n 10m 20m
+C_C2         N00204 N00262  100n  
+R_R2         0 N00262  10k  
+R_R1         N00149 N00204  10k  
+C_C1         0 N00204  100n  
+
+**** RESUMING 4-schematic1-4.sim.cir ****
+.END
+
+**** 11/01/21 17:23:38 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-4"  [ E:\Code\Assignments\3rd Term\Electric Circuit Lab\Az 5\4\4-schematic1-4.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00149)    2.0000 (N00204)    2.0000 (N00262)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .03
+

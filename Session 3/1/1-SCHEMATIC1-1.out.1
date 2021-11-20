@@ -1,0 +1,43 @@
+
+**** 10/18/21 11:04:18 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ E:\CODE\Electric Circuit Lab\Az 3\1\1-SCHEMATIC1-1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1-SCHEMATIC1-1.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of e:\orCad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\1-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING 1-SCHEMATIC1.net ****
+* source 1
+V_V1         N00113 N00202 0Vdc
+R_R1         N00113 N00144  1k  
+R_R2         N00144 N00171  1k  
+R_R3         N00202 N00144  1k  
+R_Rth         N00202 N00171  1k  
+
+**** RESUMING 1-SCHEMATIC1-1.sim.cir ****
+.END
+
+ERROR -- Node N00113 is floating
+ERROR -- Node N00202 is floating
+ERROR -- Node N00144 is floating
+ERROR -- Node N00171 is floating

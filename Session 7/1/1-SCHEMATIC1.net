@@ -1,0 +1,4 @@
+* source 1
+R_R1         N00144 N00181  10k  
+C_C1         0 N00181  100n  
+V_V1         N00144 0 DC 0Vdc AC 4Vac 

@@ -1,0 +1,17 @@
+** Profile: "SCHEMATIC1-5"  [ E:\Code\Assignments\3rd Term\Electrical-Circuit-Lab-Fall400\Session 8\5\5-SCHEMATIC1-5.sim ] 
+
+** Creating circuit file "5-SCHEMATIC1-5.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of e:\orCad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 3m 0 10u 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\5-SCHEMATIC1.net" 
+
+
+.END

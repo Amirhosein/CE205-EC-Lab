@@ -1,5 +1,5 @@
 
-**** 12/06/21 17:12:07 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/12/21 15:41:20 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-4"  [ E:\Code\Assignments\3rd Term\Electrical-Circuit-Lab-Fall400\Session 8\4\4-schematic1-4.sim ] 
 
@@ -39,7 +39,7 @@ V_V3         0 N000830 2
 **** RESUMING 4-schematic1-4.sim.cir ****
 .END
 
-**** 12/06/21 17:12:07 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/12/21 15:41:20 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-4"  [ E:\Code\Assignments\3rd Term\Electrical-Circuit-Lab-Fall400\Session 8\4\4-schematic1-4.sim ] 
 
@@ -65,7 +65,7 @@ V_V3         0 N000830 2
            M     .44         
 
 
-**** 12/06/21 17:12:07 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/12/21 15:41:20 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
  ** Profile: "SCHEMATIC1-4"  [ E:\Code\Assignments\3rd Term\Electrical-Circuit-Lab-Fall400\Session 8\4\4-schematic1-4.sim ] 
 

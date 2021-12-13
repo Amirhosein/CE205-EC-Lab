@@ -1,0 +1,36 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\2.dsn")
+      (Path "Design Resources" ".\2.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\2.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 447"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1354 52 538")
+        (Scroll "427 344")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path
+         "E:\Code\Assignments\3rd Term\Electrical-Circuit-Lab-Fall400\Session 9\2\2.dsn")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

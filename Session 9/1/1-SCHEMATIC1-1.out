@@ -1,0 +1,98 @@
+
+**** 12/13/21 10:01:29 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ E:\Code\Assignments\3rd Term\Electrical-Circuit-Lab-Fall400\Session 9\1\1-schematic1-1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "1-schematic1-1.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of e:\orCad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_V2 0 5 0.1 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\1-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING 1-SCHEMATIC1.net ****
+* source 1
+M_M1         N000032 N00270 N000030 N000030 M2N7000
+R_R2         N000032 N00181  1k  
+R_R3         0 N000030  100  
+V_V1         N00181 0 10
+V_V2         N00270 0 0Vdc
+
+**** RESUMING 1-schematic1-1.sim.cir ****
+.END
+
+**** 12/13/21 10:01:29 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-1"  [ E:\Code\Assignments\3rd Term\Electrical-Circuit-Lab-Fall400\Session 9\1\1-schematic1-1.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               M2N7000         
+               NMOS            
+       LEVEL    3            
+           L    2.000000E-06 
+           W     .12         
+         VTO    1.73         
+          KP    1.073000E-06 
+       GAMMA    0            
+         PHI     .6          
+      LAMBDA    0            
+          RD     .5489       
+          RS     .02         
+          RG  546.2          
+          RB    1.000000E-03 
+         RDS   48.000000E+06 
+          IS   10.000000E-15 
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+         CBD   74.460000E-12 
+          CJ    0            
+        CJSW    0            
+        CGSO   73.610000E-12 
+        CGDO    6.487000E-12 
+        CGBO    0            
+         TOX    2.000000E-06 
+          XJ    0            
+       UCRIT   10.000000E+03 
+       DELTA    0            
+         ETA    0            
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0    0            
+        TEMP    0            
+         VDD    0            
+       XPART    0            
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .05
+

@@ -1,7 +1,7 @@
+
+**** 12/13/21 17:05:58 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
-**** 12/13/21 10:01:29 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
-
- ** Profile: "SCHEMATIC1-1"  [ E:\Code\Assignments\3rd Term\Electrical-Circuit-Lab-Fall400\Session 9\1\1-schematic1-1.sim ] 
+ ** Profile: "SCHEMATIC1-1"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 9\1\1-schematic1-1.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -38,9 +38,9 @@ V_V2         N00270 0 0Vdc
 **** RESUMING 1-schematic1-1.sim.cir ****
 .END
 
-**** 12/13/21 10:01:29 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/13/21 17:05:58 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-1"  [ E:\Code\Assignments\3rd Term\Electrical-Circuit-Lab-Fall400\Session 9\1\1-schematic1-1.sim ] 
+ ** Profile: "SCHEMATIC1-1"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 9\1\1-schematic1-1.sim ] 
 
 
  ****     MOSFET MODEL PARAMETERS
@@ -94,5 +94,5 @@ V_V2         N00270 0 0Vdc
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .05
+          TOTAL JOB TIME            0.00
 

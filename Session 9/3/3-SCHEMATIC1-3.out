@@ -1,7 +1,7 @@
 
-**** 12/13/21 10:21:47 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/13/21 16:49:21 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-3"  [ E:\Code\Assignments\3rd Term\Electrical-Circuit-Lab-Fall400\Session 9\3\3-SCHEMATIC1-3.sim ] 
+ ** Profile: "SCHEMATIC1-3"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 9\3\3-schematic1-3.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -12,7 +12,7 @@
 
 
 
-** Creating circuit file "3-SCHEMATIC1-3.sim.cir" 
+** Creating circuit file "3-schematic1-3.sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -35,17 +35,17 @@ C_C1         N00627 N00549  10u
 R_R1         0 N00549  10.5k  
 R_R2         N00549 N00490  47k  
 M_M1         N01337 N00549 0 0 M2N7000
-R_R3         N01337 N00490  5k  
+R_R3         N01337 N00490  10k  
 V_V2         N00490 0 10
 C_C2         N01337 N001881  10u  
 R_R4         N001881 0  100meg  
 
-**** RESUMING 3-SCHEMATIC1-3.sim.cir ****
+**** RESUMING 3-schematic1-3.sim.cir ****
 .END
 
-**** 12/13/21 10:21:47 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/13/21 16:49:21 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-3"  [ E:\Code\Assignments\3rd Term\Electrical-Circuit-Lab-Fall400\Session 9\3\3-SCHEMATIC1-3.sim ] 
+ ** Profile: "SCHEMATIC1-3"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 9\3\3-schematic1-3.sim ] 
 
 
  ****     MOSFET MODEL PARAMETERS
@@ -96,9 +96,9 @@ R_R4         N001881 0  100meg
        XPART    0            
 
 
-**** 12/13/21 10:21:47 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/13/21 16:49:21 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-3"  [ E:\Code\Assignments\3rd Term\Electrical-Circuit-Lab-Fall400\Session 9\3\3-SCHEMATIC1-3.sim ] 
+ ** Profile: "SCHEMATIC1-3"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 9\3\3-schematic1-3.sim ] 
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -111,7 +111,7 @@ R_R4         N001881 0  100meg
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(N00490)   10.0000 (N00549)    1.8261 (N00627)    0.0000 (N01337)    8.5133     
+(N00490)   10.0000 (N00549)    1.8261 (N00627)    0.0000 (N01337)    7.0269     
 
 (N001881)    0.0000                   
 
@@ -122,7 +122,7 @@ R_R4         N001881 0  100meg
     NAME         CURRENT
 
     V_V1         0.000E+00
-    V_V2        -4.713E-04
+    V_V2        -4.712E-04
 
     TOTAL POWER DISSIPATION   4.71E-03  WATTS
 

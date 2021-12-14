@@ -1,7 +1,7 @@
 
-**** 12/13/21 10:07:18 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/13/21 17:05:39 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-2"  [ E:\Code\Assignments\3rd Term\Electrical-Circuit-Lab-Fall400\Session 9\2\2-SCHEMATIC1-2.sim ] 
+ ** Profile: "SCHEMATIC1-2"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 9\2\2-schematic1-2.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -12,7 +12,7 @@
 
 
 
-** Creating circuit file "2-SCHEMATIC1-2.sim.cir" 
+** Creating circuit file "2-schematic1-2.sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -41,12 +41,12 @@ R_R4         0 N00689  122k
 V_V3         N00621 0 10
 R_R5         0 N006770  150  
 
-**** RESUMING 2-SCHEMATIC1-2.sim.cir ****
+**** RESUMING 2-schematic1-2.sim.cir ****
 .END
 
-**** 12/13/21 10:07:18 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/13/21 17:05:39 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-2"  [ E:\Code\Assignments\3rd Term\Electrical-Circuit-Lab-Fall400\Session 9\2\2-SCHEMATIC1-2.sim ] 
+ ** Profile: "SCHEMATIC1-2"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 9\2\2-schematic1-2.sim ] 
 
 
  ****     MOSFET MODEL PARAMETERS

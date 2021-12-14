@@ -3,10 +3,10 @@
 @Settings: 1 1
 @General:
 ProfileName= "2" 
-ProfileFile= "2-SCHEMATIC1-2.sim" 
+ProfileFile= "2-schematic1-2.sim" 
 DesignFile= "2.dsn" 0 
 ProjectFile= "2.opj" 
-NetlistFile= "2-SCHEMATIC1-2.sim.cir" 
+NetlistFile= "2-schematic1-2.sim.cir" 
 RootSchematics= "SCHEMATIC1" 
 DataFile= "2-SCHEMATIC1-2.dat" 
 OutFile= "2-SCHEMATIC1-2.out" 

@@ -1,7 +1,7 @@
 
-**** 12/25/21 18:26:25 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/27/21 16:21:17 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-3-2"  [ E:\CODE\ASSIGNMENTS\3RD TERM\ELECTRICAL CIRCUIT LAB\SESSION 10\3\3-SCHEMATIC1-3-2.sim ] 
+ ** Profile: "SCHEMATIC1-3-2"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 10\3\3-schematic1-3-2.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -12,7 +12,7 @@
 
 
 
-** Creating circuit file "3-SCHEMATIC1-3-2.sim.cir" 
+** Creating circuit file "3-schematic1-3-2.sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -30,20 +30,20 @@
 **** INCLUDING 3-SCHEMATIC1.net ****
 * source 3
 X_U1         N00784 N00352 N000032 N000033 N00472 LM741
-C_C1         N00352 N00472  100n  
 V_V1         N000032 0 9
-V_V4         N00649 0 DC 0Vdc AC 1Vac 
+C_C1         N00352 N00472  100n  
+V_V3         N00649 0 DC 0Vdc AC 1Vac 
 V_V2         0 N000033 9
 R_R1         N00352 N00472  10k  
 R_R2         0 N00784  10k  
 R_R3         N00649 N00352  10k  
 
-**** RESUMING 3-SCHEMATIC1-3-2.sim.cir ****
+**** RESUMING 3-schematic1-3-2.sim.cir ****
 .END
 
-**** 12/25/21 18:26:25 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/27/21 16:21:17 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-3-2"  [ E:\CODE\ASSIGNMENTS\3RD TERM\ELECTRICAL CIRCUIT LAB\SESSION 10\3\3-SCHEMATIC1-3-2.sim ] 
+ ** Profile: "SCHEMATIC1-3-2"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 10\3\3-schematic1-3-2.sim ] 
 
 
  ****     Diode MODEL PARAMETERS
@@ -60,9 +60,9 @@ R_R3         N00649 N00352  10k
          CJO                   10.000000E-12 
 
 
-**** 12/25/21 18:26:25 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/27/21 16:21:17 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-3-2"  [ E:\CODE\ASSIGNMENTS\3RD TERM\ELECTRICAL CIRCUIT LAB\SESSION 10\3\3-SCHEMATIC1-3-2.sim ] 
+ ** Profile: "SCHEMATIC1-3-2"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 10\3\3-schematic1-3-2.sim ] 
 
 
  ****     BJT MODEL PARAMETERS
@@ -84,9 +84,9 @@ R_R3         N00649 N00352  10k
            D     .87         
 
 
-**** 12/25/21 18:26:25 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/27/21 16:21:17 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-3-2"  [ E:\CODE\ASSIGNMENTS\3RD TERM\ELECTRICAL CIRCUIT LAB\SESSION 10\3\3-SCHEMATIC1-3-2.sim ] 
+ ** Profile: "SCHEMATIC1-3-2"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 10\3\3-schematic1-3-2.sim ] 
 
 
  ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -126,7 +126,7 @@ R_R3         N00649 N00352  10k
     NAME         CURRENT
 
     V_V1        -1.006E-03
-    V_V4        -7.780E-08
+    V_V3        -7.780E-08
     V_V2        -1.006E-03
     X_U1.x_lm741.vb   7.118E-13
     X_U1.x_lm741.vc   8.002E-12
@@ -141,5 +141,5 @@ R_R3         N00649 N00352  10k
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .52
+          TOTAL JOB TIME             .45
 

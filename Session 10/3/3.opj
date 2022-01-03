@@ -61,18 +61,7 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "E:\CODE\ASSIGNMENTS\3RD TERM\ELECTRICAL CIRCUIT LAB\SESSION 10\3\3.dsn")
-      (Path "Design Resources"
-         "E:\CODE\ASSIGNMENTS\3RD TERM\ELECTRICAL CIRCUIT LAB\SESSION 10\3\3.dsn"
-         "SCHEMATIC1")
-      (Path "Design Resources"
-         "E:\CODE\ASSIGNMENTS\3RD TERM\ELECTRICAL CIRCUIT LAB\SESSION 10\3\3.dsn"
-         "Design Cache")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "E:\CODE\ASSIGNMENTS\3RD TERM\ELECTRICAL CIRCUIT LAB\SESSION 10\3\3.dsn"
-         "SCHEMATIC1" "PAGE1"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -87,6 +76,6 @@
         (Zoom "200")
         (Occurrence "/"))
       (Path
-         "E:\CODE\ASSIGNMENTS\3RD TERM\ELECTRICAL CIRCUIT LAB\SESSION 10\3\3.dsn")
+         "E:\CODE\ASSIGNMENTS\3RD TERM\ELECTRICAL CIRCUIT LAB\SESSION 10\3\3.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))))

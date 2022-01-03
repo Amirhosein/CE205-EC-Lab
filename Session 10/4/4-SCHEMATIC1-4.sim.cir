@@ -1,6 +1,6 @@
-** Profile: "SCHEMATIC1-4"  [ E:\CODE\ASSIGNMENTS\3RD TERM\ELECTRICAL CIRCUIT LAB\SESSION 10\4\4-SCHEMATIC1-4.sim ] 
+** Profile: "SCHEMATIC1-4"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 10\4\4-schematic1-4.sim ] 
 
-** Creating circuit file "4-SCHEMATIC1-4.sim.cir" 
+** Creating circuit file "4-schematic1-4.sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -9,7 +9,7 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 60m 0 20u 
+.TRAN  0 20m 0 20u 
 .PROBE V(*) I(*) W(*) D(*) NOISE(*) 
 .INC ".\4-SCHEMATIC1.net" 
 

@@ -3,7 +3,7 @@
 @Settings: 0 1
 @General:
 ProfileName= "1" 
-ProfileFile= "1-SCHEMATIC1-1.sim" 
+ProfileFile= "1-schematic1-1.sim" 
 DesignFile= "1.dsn" 0 
 ProjectFile= "1.opj" 
 NetlistFile= "1-SCHEMATIC1-1.sim.cir" 

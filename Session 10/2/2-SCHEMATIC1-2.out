@@ -1,7 +1,7 @@
-
-**** 12/25/21 14:30:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-2"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 10\2\2-SCHEMATIC1-2.sim ] 
+**** 12/27/21 17:00:07 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-2"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 10\2\2-schematic1-2.sim ] 
 
 
  ****     CIRCUIT DESCRIPTION
@@ -12,7 +12,7 @@
 
 
 
-** Creating circuit file "2-SCHEMATIC1-2.sim.cir" 
+** Creating circuit file "2-schematic1-2.sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
 
 *Libraries: 
@@ -37,12 +37,12 @@ R_R2         0 N00635  1k
 V_V1         N001550 0 10
 V_V2         0 N002001 10
 
-**** RESUMING 2-SCHEMATIC1-2.sim.cir ****
+**** RESUMING 2-schematic1-2.sim.cir ****
 .END
 
-**** 12/25/21 14:30:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/27/21 17:00:07 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-2"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 10\2\2-SCHEMATIC1-2.sim ] 
+ ** Profile: "SCHEMATIC1-2"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 10\2\2-schematic1-2.sim ] 
 
 
  ****     Diode MODEL PARAMETERS
@@ -59,9 +59,9 @@ V_V2         0 N002001 10
          CJO                   10.000000E-12 
 
 
-**** 12/25/21 14:30:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/27/21 17:00:07 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-2"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 10\2\2-SCHEMATIC1-2.sim ] 
+ ** Profile: "SCHEMATIC1-2"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 10\2\2-schematic1-2.sim ] 
 
 
  ****     BJT MODEL PARAMETERS
@@ -83,9 +83,9 @@ V_V2         0 N002001 10
            D     .87         
 
 
-**** 12/25/21 14:30:57 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+**** 12/27/21 17:00:07 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
 
- ** Profile: "SCHEMATIC1-2"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 10\2\2-SCHEMATIC1-2.sim ] 
+ ** Profile: "SCHEMATIC1-2"  [ E:\Code\Assignments\3rd Term\Electrical Circuit Lab\Session 10\2\2-schematic1-2.sim ] 
 
 
  ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
@@ -136,5 +136,5 @@ V_V2         0 N002001 10
 
           JOB CONCLUDED
 
-          TOTAL JOB TIME             .08
+          TOTAL JOB TIME             .06
 

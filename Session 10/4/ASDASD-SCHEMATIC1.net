@@ -1,0 +1,6 @@
+* source ASDASD
+V_V1         N00857 0  
++SIN 0 4 1000 0 0 0
+R_R2         N00857 N00896  1meg  
+D_D2         N008000 N00896 D1N4001 
+V_V3         N008000 0 2

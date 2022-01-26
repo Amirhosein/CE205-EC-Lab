@@ -1,0 +1,44 @@
+
+**** 01/05/22 18:35:32 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-asd"  [ E:\CODE\ASSIGNMENTS\3RD TERM\ELECTRICAL CIRCUIT LAB\SESSION 10\4\asdasd-SCHEMATIC1-asd.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "asdasd-SCHEMATIC1-asd.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of e:\orCad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 3m 0 1u 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\asdasd-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING asdasd-SCHEMATIC1.net ****
+* source ASDASD
+V_V1         N00857 N00394  
++SIN 0 4 1000 0 0 0
+R_R2         N00857 N00896  1meg  
+D_D2         N008000 N00896 D1N4001 
+V_V3         N008000 N00394 2
+
+**** RESUMING asdasd-SCHEMATIC1-asd.sim.cir ****
+.END
+
+ERROR -- Node N00857 is floating
+ERROR -- Node N00394 is floating
+ERROR -- Node N00896 is floating
+ERROR -- Node N008000 is floating
